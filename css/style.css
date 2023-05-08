@@ -1,0 +1,109 @@
+
+.img__logo--w{
+    width: 95px;
+}
+
+.a_logo_size{
+    width: 20vw;
+}
+
+nav div .navbar-nav a {
+    color: gray;
+}
+
+nav div .a--tickets{
+    color:green;
+}
+
+nav div .a--tickets:hover{
+    color:rgb(10, 202, 10);
+}
+
+nav div .navbar-nav a:hover {
+    color: antiquewhite !important;
+}
+
+nav div .navbar-nav .active {
+    color: white !important;
+}
+.nav__logo_invert {
+    filter: _invert(1);
+    -webkit-filter: invert(1);
+}
+
+.carousel{
+    background-color: rgb(75, 71, 95);
+ height: 610px;
+ position: relative;
+}
+
+.carousel img{
+   height: 590px;  
+   object-fit: cover;
+}
+
+.carousel-control-prev{
+    width: 7%;
+}
+.carousel-control-next{
+    width: 7%;
+}
+
+.color__button--tickets{
+    background-color:green;
+}
+
+.text-white{
+    position:absolute;
+    right: 8%;
+    top:40%;
+    text-shadow: rgb(75, 71, 95);
+} 
+
+.img-fluid{
+    width: 100%;  
+   
+}
+.card-text{
+    background-color:rgb(37, 34, 34) ;
+}
+.underline__link{
+    text-decoration:dashed;
+}
+.color__button--send{
+    background-color: greenyellow;
+    color: white;
+} 
+.color__button--send:hover{
+    background-color: green;
+    color: white;
+} 
+
+  
+.footer--background{
+    background:linear-gradient(to right, #1c3846 60%, #1f5271 );
+
+} 
+.footer--shadow{
+    filter: drop-shadow(2px, 4px, 6px, white);
+    -webkit-filter: drop-shadow(2px, 4px, 6px, white);
+}
+
+footer div{
+    
+    align-content: center;
+}
+footer a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: gray;
+    transition: .3 all;
+}
+
+footer a:hover{
+    color:white;
+    transition: .5 all;
+}
+
+    
+
